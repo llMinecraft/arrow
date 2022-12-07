@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="arrow-client" />
+        <module name="arrow-cron" />
+        <module name="arrow-common" />
+        <module name="arrow-stream" />
+        <module name="arrow-service-api-impl" />
+        <module name="arrow-handler" />
+        <module name="arrow-web" />
+        <module name="arrow-support" />
+        <module name="arrow-service-api" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="arrow-client" options="-parameters" />
+      <module name="arrow-common" options="-parameters" />
+      <module name="arrow-cron" options="-parameters" />
+      <module name="arrow-handler" options="-parameters" />
+      <module name="arrow-service-api" options="-parameters" />
+      <module name="arrow-service-api-impl" options="-parameters" />
+      <module name="arrow-stream" options="-parameters" />
+      <module name="arrow-support" options="-parameters" />
+      <module name="arrow-web" options="-parameters" />
+    </option>
+  </component>
+</project>
